@@ -27,6 +27,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.pertemuan14.R
 import com.example.pertemuan14.modeldata.DetailSiswa
 import com.example.pertemuan14.modeldata.UIStateSiswa
+import com.example.pertemuan14.view.route.DestinasiEntry
+import com.example.pertemuan14.viewmodel.EntryViewModel
+import com.example.pertemuan14.viewmodel.PenyediaViewModel
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
