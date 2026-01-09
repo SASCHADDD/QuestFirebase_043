@@ -104,7 +104,7 @@ fun HomeBody(
                 onSiswaClick = { onSiswaClick(it.id.toInt()) }
             )
             is StatusUiSiswa.Error -> ErrorScreen(
-                retryAction,
+                retryAction = retryAction,
                 modifier = modifier.fillMaxSize()
             )
         }
