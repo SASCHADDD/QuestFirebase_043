@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.pertemuan14"
-        minSdk = 24
+        minSdk = 25
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -63,6 +63,7 @@ dependencies {
 // viewmodel
     implementation(libs.lifecycle.viewmodel.compose)
     implementation(libs.lifecycle.runtime.compose)
+    implementation(libs.compose.material3)
 
 
     testImplementation(libs.junit)
